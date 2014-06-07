@@ -1,14 +1,14 @@
 /********************************************
- * 											*
- * @author Izabela Orlowska					*
- * 											*
- * A Decorator Design Pattern example.		*
- * 											*
+ *                                          *
+ * @author Izabela Orlowska                 *
+ *                                          *
+ * A Decorator Design Pattern example.      *
+ *                                          *
  ********************************************
- *											*
- * Wszystkie klasy w jednym pliku, zeby		*
- * uniknac zamieszania.						*
- * 											*
+ *                                          *
+ * Wszystkie klasy w jednym pliku, zeby	    *
+ * uniknac zamieszania.	                    *
+ *                                          *
  ********************************************/
 
 /**
@@ -37,6 +37,7 @@ abstract class BikeDecorator implements Bike {
     public BikeDecorator (Bike decoratedBike) {
         this.decoratedBike = decoratedBike;
     }
+    
     @Override
     public String getDescription() {
         return decoratedBike.getDescription();
