@@ -1,0 +1,2 @@
+default:
+	g++ builder.cpp
