@@ -1,2 +1,2 @@
 default:
-	g++ adapter.cpp
+	g++ singleton.cpp
